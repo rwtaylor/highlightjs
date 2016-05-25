@@ -3714,6 +3714,11 @@ hljs.registerLanguage('bash', function(hljs) {
         // http://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
         'break cd continue eval exec exit export getopts hash pwd readonly return shift test times ' +
         'trap umask unset ' +
+        // SLURM
+        'sacct sacctmgr salloc sattach sbatch sbcast scancel scontrol sdiag sinfo slurm smap smd ' +
+        'sprio sh5util squeue  sreport srun_cr srun sshare sstat strigger sview sdev ' +
+        // Common shell commands +
+        'tmux screen ssh scp rsync kinit sudo yum apt-get apt curl wget cat grep awk ' +
         // Bash built-ins
         'alias bind builtin caller command declare echo enable help let local logout mapfile printf ' +
         'read readarray source type typeset ulimit unalias ' +
