@@ -13,7 +13,7 @@ build: highlight
 	@cd highlight && node tools/build.js -n && cp build/highlight.pack.js ../build/highlight.pack.js
 
 highlight:
-	@git clone git://github.com/isagalaev/highlight.js.git $@
+	@git clone git://github.com/rwtaylor/highlight.js.git $@
 
 clean:
 	@rm -rf build
